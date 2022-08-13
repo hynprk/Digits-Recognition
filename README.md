@@ -184,7 +184,7 @@ Pros and Cons | Small *k* | Large *k*
 Good | Makes specific predictions by using a few inputs | Makes stable predictions by using a large number of inputs
 Bad | Overfitting (biased to training set; low accuracy for testing set) | Underfitting (Too generic; Misses regularities)
 
-In general, finding the optimal *k* value depends on the size of the data set, *n*, which is a fixed number. The MNIST digits data set we have has *n = 1797*. Ideally, we choose $$k < \sqrt n$$ as a rule of thumb since $\frac{k}{n} \rightarrow 0$ as $k \rightarrow \infty$ (*k* is not fixed). Since $\sqrt n = \sqrt 1797 \approx 42$ for the given example, we would want a *k* less than 42.
+In general, finding the optimal *k* value depends on the size of the data set, *n*, which is a fixed number. The MNIST digits data set we have has *n = 1797*. Ideally, we choose $$k < \sqrt n$$ as a rule of thumb since $\frac{k}{n} \rightarrow 0$ as $k \rightarrow \infty$ (*k* is not fixed). Since $\sqrt n = \sqrt 1797 \approx 42$ for the given example, we would want a *k* less than 42. Based on the graph, I would say $k = 7$ is the optimal value.
 
 ### Curse of Dimentionality
 
