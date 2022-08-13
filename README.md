@@ -1,2 +1,2 @@
-# Digits-Recognition
-Supervised Learning
+# Digits Recognition
+Basic supervised learning example using Python
