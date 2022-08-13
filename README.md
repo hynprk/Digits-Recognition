@@ -2,6 +2,13 @@
 
 This is a basic supervised learning example using the digits dataset from sklearn in Python. Code without texts in between can be found in the file named [digits_recognition.py](https://github.com/hynprk/Digits-Recognition). I used [Spyder](https://www.spyder-ide.org/) to program in Python, but of course, Python can be used in various software tools. Please let me know if there are any errors in the information given below.
 
+## Table of Contents
+### I. [Introduction](https://github.com/hynprk/Digits-Recognition/blob/main/README.md#introduction)
+### II. [MNIST Data set](https://github.com/hynprk/Digits-Recognition/blob/main/README.md#introduction)
+### III. [Using the k-Nearest Neighbours Algorithm](https://github.com/hynprk/Digits-Recognition/blob/main/README.md#introduction)
+  III-i. [Curse of Dimentionality](https://github.com/hynprk/Digits-Recognition/blob/main/README.md#introduction)
+### IV. [Glossary](https://github.com/hynprk/Digits-Recognition/blob/main/README.md#introduction)
+
 ## Introduction
 Machine learning is one of the important fields data scientist must know. Machine learning is a subfield of artificial intelligence (Yes, they are not the same!) since AI does not always imply a learning-based system. AI refers to machines executing tasks efficiently, while machine learning is programming algorithms that can automatically learn from data or from experience. Oftentimes, we cannot always execute the appropriate outcome by hand, especially if there is a wide range of abstract data we have to handle. This includes being able to recognize human speech, objects, handwriting, or people from pictures. 
 
